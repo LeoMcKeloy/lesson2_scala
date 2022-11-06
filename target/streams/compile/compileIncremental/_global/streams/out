@@ -1,6 +1,32 @@
 [debug] [zinc] IncrementalCompile -----------
 [debug] IncrementalCompile.incrementalCompile
 [debug] previous = Stamps for: 22 products, 11 sources, 1 libraries
-[debug] current source = Set(${BASE}/src/main/scala/ru/pyryanov/lesson2/HelloScala.scala, ${BASE}/src/main/scala/ru/pyryanov/lesson2/EmployeeSalary.scala, ${BASE}/src/main/scala/ru/pyryanov/lesson2/SortEmployees.scala, ${BASE}/src/main/scala/ru/pyryanov/lesson2/DeanonymizationEmployees.scala, ${BASE}/src/main/scala/ru/pyryanov/lesson2/SalaryIndexing.scala, ${BASE}/src/main/scala/ru/pyryanov/lesson2/NewSalary.scala, ${BASE}/src/main/scala/App.scala, ${BASE}/src/main/scala/ru/pyryanov/lesson2/SalaryVariance.scala, ${BASE}/src/main/scala/ru/pyryanov/lesson2/MiddleEmployees.scala, ${BASE}/src/main/scala/ru/pyryanov/lesson2/InsertElementToList.scala, ${BASE}/src/main/scala/ru/pyryanov/lesson2/DegreeOfTwo.scala)
-[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())
-[debug] No changes
+[debug] current source = Set(${BASE}/src/main/scala/ru/pyryanov/lesson2/HelloScala.scala, ${BASE}/src/main/scala/ru/pyryanov/lesson2/EmployeeSalary.scala, ${BASE}/src/main/scala/ru/pyryanov/lesson2/SortEmployees.scala, ${BASE}/src/main/scala/ru/pyryanov/lesson2/DeanonymizationEmployees.scala, ${BASE}/src/main/scala/ru/pyryanov/lesson2/SalaryIndexing.scala, ${BASE}/src/main/scala/ru/pyryanov/lesson2/NewSalary.scala, ${BASE}/src/main/scala/ru/pyryanov/lesson2/SalaryVariance.scala, ${BASE}/src/main/scala/ru/pyryanov/lesson2/MiddleEmployees.scala, ${BASE}/src/main/scala/ru/pyryanov/lesson2/InsertElementToList.scala, ${BASE}/src/main/scala/ru/pyryanov/lesson2/DegreeOfTwo.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(${BASE}/src/main/scala/App.scala), changed = Set(${BASE}/src/main/scala/ru/pyryanov/lesson2/DegreeOfTwo.scala, ${BASE}/src/main/scala/ru/pyryanov/lesson2/SalaryVariance.scala, ${BASE}/src/main/scala/ru/pyryanov/lesson2/InsertElementToList.scala, ${BASE}/src/main/scala/ru/pyryanov/lesson2/EmployeeSalary.scala, ${BASE}/src/main/scala/ru/pyryanov/lesson2/SalaryIndexing.scala, ${BASE}/src/main/scala/ru/pyryanov/lesson2/DeanonymizationEmployees.scala, ${BASE}/src/main/scala/ru/pyryanov/lesson2/HelloScala.scala, ${BASE}/src/main/scala/ru/pyryanov/lesson2/SortEmployees.scala, ${BASE}/src/main/scala/ru/pyryanov/lesson2/MiddleEmployees.scala, ${BASE}/src/main/scala/ru/pyryanov/lesson2/NewSalary.scala), unmodified = ...),Set(),Set(),API Changes: Set())
+[debug] 
+[debug] Initial source changes:
+[debug] 	removed: Set(${BASE}/src/main/scala/App.scala)
+[debug] 	added: Set()
+[debug] 	modified: Set(${BASE}/src/main/scala/ru/pyryanov/lesson2/HelloScala.scala, ${BASE}/src/main/scala/ru/pyryanov/lesson2/EmployeeSalary.scala, ${BASE}/src/main/scala/ru/pyryanov/lesson2/SortEmployees.scala, ${BASE}/src/main/scala/ru/pyryanov/lesson2/DeanonymizationEmployees.scala, ${BASE}/src/main/scala/ru/pyryanov/lesson2/SalaryIndexing.scala, ${BASE}/src/main/scala/ru/pyryanov/lesson2/NewSalary.scala, ${BASE}/src/main/scala/ru/pyryanov/lesson2/SalaryVariance.scala, ${BASE}/src/main/scala/ru/pyryanov/lesson2/MiddleEmployees.scala, ${BASE}/src/main/scala/ru/pyryanov/lesson2/InsertElementToList.scala, ${BASE}/src/main/scala/ru/pyryanov/lesson2/DegreeOfTwo.scala)
+[debug] Invalidated products: Set()
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated classes: Set(ru.pyryanov.lesson2.InsertElementToList, ru.pyryanov.lesson2.DegreeOfTwo, ru.pyryanov.lesson2.SalaryIndexing, ru.pyryanov.lesson2.DeanonymizationEmployees, ru.pyryanov.lesson2.SortEmployees, App, ru.pyryanov.lesson2.NewSalary, ru.pyryanov.lesson2.SalaryVariance, ru.pyryanov.lesson2.EmployeeSalary, ru.pyryanov.lesson2.MiddleEmployees, ru.pyryanov.lesson2.HelloScala)
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set()
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] all 10 sources are invalidated
+[debug] Initial set of included nodes: ru.pyryanov.lesson2.InsertElementToList, ru.pyryanov.lesson2.DegreeOfTwo, ru.pyryanov.lesson2.SalaryIndexing, ru.pyryanov.lesson2.DeanonymizationEmployees, ru.pyryanov.lesson2.SortEmployees, App, ru.pyryanov.lesson2.NewSalary, ru.pyryanov.lesson2.SalaryVariance, ru.pyryanov.lesson2.EmployeeSalary, ru.pyryanov.lesson2.MiddleEmployees, ru.pyryanov.lesson2.HelloScala
+[debug] Recompiling all sources: number of invalidated sources > 50.0 percent of all sources
+[debug] compilation cycle 1
+[info] compiling 10 Scala sources to C:\Users\lpyryanov\IdeaProjects\lesson2_scala\target\scala-2.13\classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.13:1.7.2:compile for Scala 2.13.10
+[debug] [zinc] Running cached compiler 4f7186e9 for Scala compiler version 2.13.10
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-bootclasspath
+[debug] 	C:\Users\lpyryanov\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.10\scala-library-2.13.10.jar
+[debug] 	-classpath
+[debug] 	C:\Users\lpyryanov\IdeaProjects\lesson2_scala\target\scala-2.13\classes;C:\Users\lpyryanov\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalaj\scalaj-http_2.13\2.4.2\scalaj-http_2.13-2.4.2.jar
+[debug] Scala compilation took 1.0593596 s
+[info] done compiling
