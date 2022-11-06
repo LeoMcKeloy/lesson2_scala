@@ -1,0 +1,6 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 22 products, 11 sources, 1 libraries
+[debug] current source = Set(${BASE}/src/main/scala/ru/pyryanov/lesson2/HelloScala.scala, ${BASE}/src/main/scala/ru/pyryanov/lesson2/EmployeeSalary.scala, ${BASE}/src/main/scala/ru/pyryanov/lesson2/SortEmployees.scala, ${BASE}/src/main/scala/ru/pyryanov/lesson2/DeanonymizationEmployees.scala, ${BASE}/src/main/scala/ru/pyryanov/lesson2/SalaryIndexing.scala, ${BASE}/src/main/scala/ru/pyryanov/lesson2/NewSalary.scala, ${BASE}/src/main/scala/App.scala, ${BASE}/src/main/scala/ru/pyryanov/lesson2/SalaryVariance.scala, ${BASE}/src/main/scala/ru/pyryanov/lesson2/MiddleEmployees.scala, ${BASE}/src/main/scala/ru/pyryanov/lesson2/InsertElementToList.scala, ${BASE}/src/main/scala/ru/pyryanov/lesson2/DegreeOfTwo.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())
+[debug] No changes

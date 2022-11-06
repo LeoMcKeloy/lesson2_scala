@@ -1,0 +1,14 @@
+[debug] > Exec(all {file:/C:/Users/lpyryanov/IdeaProjects/lesson2_scala/}lesson2_scala/products {file:/C:/Users/lpyryanov/IdeaProjects/lesson2_scala/}lesson2_scala/test:products, None, None)
+[debug] Evaluating tasks: Compile / products, Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\lpyryanov\IdeaProjects\lesson2_scala\target\scala-2.13\classes ...
+[error] C:\Users\lpyryanov\IdeaProjects\lesson2_scala\src\main\scala\ru\pyryanov\lesson2\DeanonymizationEmployees.scala:27:44: method split of type Array[String] does not take type parameters.
+[error]             val newKey = item._1.split(" ")[0]
+[error]                                            ^
+[error] one error found
+[debug] Forcing garbage collection...
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 1 s, completed 6 нояб. 2022 г., 20:13:25
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
